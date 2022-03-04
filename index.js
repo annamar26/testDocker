@@ -1,4 +1,4 @@
-const searchInput = require("./searchComponent/searchClass")
+import searchInput from "./searchComponent/searchClass.js"
 
 customElements.define('search-input', searchInput, { extends: 'input' });
 const buscador = new searchInput('searcher');

@@ -1,4 +1,4 @@
-const connectMongo = require("../mongoModule")
+
 export default class searchInput extends HTMLInputElement{
     constructor(idName){
         super()
@@ -12,7 +12,7 @@ export default class searchInput extends HTMLInputElement{
 
     search(valor){
         
-        const response = connectMongo().find(elem => elem === valor.trim() )
-       
+        // const response = products.find(elem => elem === valor.trim() )
+       console.log(products)
     }
 }
