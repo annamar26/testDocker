@@ -1,6 +1,4 @@
-import {connectMongo} from "../mongoModule.js"
-
-
+const connectMongo = require("../mongoModule")
 export default class searchInput extends HTMLInputElement{
     constructor(idName){
         super()
